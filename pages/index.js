@@ -5,9 +5,18 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <title>
           Corona-Ampel App - Aktuelle Zahlen, Inzidenz, Impf-Fortschritt ...
         </title>
+        <link rel="icon" href="https://corona-ampel.app/favicon.ico" />
+        <meta name="theme-color" content="#292F36" />
+        <meta
+          name="keywords"
+          content="Inzidenz, Ampel, Corona, Coburg, aktuell, Zahlen, Fall, Fälle, Bamberg, Schweinfurt, Warnung, Info"
+        />
+        <meta name="author" content="Andre Bellmann" />
         <meta
           name="description"
           content="🚦 Alle Landkreise, Bundesländer im Überblick. Die neue Corona-Ampel App hat die wichtigsten Corona und Covid-19 Daten für ganz Deutschland in übersichtlicher Form!"
@@ -33,7 +42,7 @@ export default function Home() {
         />
         <meta name="”twitter:creator”" value="”@ingomc”" />
 
-        <link rel="icon" href="https://corona-ampel.app/favicon.ico" />
+        <link rel="icon" href="https://corona-ampel.app/app-icon.png" />
         <link
           href="https://corona-ampel.app/app-icon.png"
           rel="icon"
