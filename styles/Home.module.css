@@ -59,7 +59,7 @@
 }
 
 .logo {
-  height: 15vh;
   border-radius: 2rem;
   margin: 2rem;
+  overflow: hidden;
 }

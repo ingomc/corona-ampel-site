@@ -1,11 +1,12 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <meta
+        <meta
           property="og:title"
           content="Corona-Ampel App - Aktuelle Zahlen, Inzidenz, Impf-Fortschritt ..."
         />
@@ -61,7 +62,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/app-icon.png" className={styles.logo} />
+        <div className={styles.logo}>
+          <Image  width="120" height="120" src="/app-icon.png" alt="Logo" />
+        </div>
         <h1 className={styles.title}>Corona-Ampel für Android und iOS</h1>
         <h2>Coming soon ...</h2>
       </main>
