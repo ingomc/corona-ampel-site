@@ -6,6 +6,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Corona-Ampel App - Aktuelle Zahlen, Inzidenz, Impf-Fortschritt ...</title>
+        <meta name="description" content="Alle Landkreise, Bundesländer im Überblick. Die neue Corona-Ampel App hat die wichtigsten Corona und Covid-19 Daten für ganz Deutschland in übersichtlicher Form!" />
+        <meta property="og:title" content="Corona-Ampel App - Aktuelle Zahlen, Inzidenz, Impf-Fortschritt ..." />
+        <meta property="og:url" content="https://corona-ampel.app" />
+        <meta property="og:description" content="Alle Landkreise, Bundesländer im Überblick. Die neue Corona-Ampel App hat die wichtigsten Corona und Covid-19 Daten für ganz Deutschland in übersichtlicher Form!" />
+        <meta property="og:image" content="/app-icon.png" />
         <link rel="icon" href="/favicon.ico" />
         <link href="/app-icon.png" rel="icon" type="image/png"></link>
       </Head>
