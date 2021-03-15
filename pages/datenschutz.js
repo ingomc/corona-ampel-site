@@ -66,7 +66,7 @@ export default function Datenschutz() {
         <div className={styles.logo}>
           <Image width="120" height="120" src="/app-icon.png" alt="Logo" />
         </div>
-        <h1 className={styles.title}>Datenschutz - Corona-Ampel Website & CoronAMPEL App</h1>
+        <h1 className={styles.title}>Datenschutz - Corona-Ampel Website & Inzidenz-Ampel App</h1>
         <p>
           Die Nutzung unserer Webseite/App ist in der Regel ohne Angabe
           personenbezogener Daten möglich. Nur teile der IP Adresse, niemals die
