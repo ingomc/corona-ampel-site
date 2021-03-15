@@ -103,7 +103,7 @@ export default function Datenschutz() {
               dem Gerät gespeichert
             </li>
             <li>
-              Ein Standord kann auf klick ermittelt werden, wird aber nie
+              Ein Standort kann auf klick ermittelt werden, wird aber nie
               gespeichert
             </li>
           </ul>
