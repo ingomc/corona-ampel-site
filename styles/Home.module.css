@@ -63,3 +63,11 @@
   margin: 2rem;
   overflow: hidden;
 }
+
+.playstorelogo {
+  text-align: center;
+}
+
+.playstorelogo img {
+  max-width: 320px;
+}

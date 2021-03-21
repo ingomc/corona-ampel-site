@@ -21,18 +21,18 @@ export default function Datenschutz() {
         />
         <meta
           property="og:image"
-          content="https://corona-ampel.app/app-icon.png"
+          content="https://corona-ampel.app/playstore-icon.png"
         />
         <meta
           property="og:image:secure_url"
-          content="https://corona-ampel.app/app-icon.png"
+          content="https://corona-ampel.app/playstore-icon.png"
         />
         <meta property="og:image:width" content="310" />
         <meta property="og:image:height" content="310" />
 
         <meta
           name="twitter:image"
-          content="https://corona-ampel.app/app-icon.png"
+          content="https://corona-ampel.app/playstore-icon.png"
         />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -41,9 +41,9 @@ export default function Datenschutz() {
           Corona-Ampel App - Aktuelle Zahlen, Inzidenz, Impf-Fortschritt ...
         </title>
         <link rel="icon" href="https://corona-ampel.app/favicon.ico" />
-        <link rel="icon" href="https://corona-ampel.app/app-icon.png" />
+        <link rel="icon" href="https://corona-ampel.app/playstore-icon.png" />
         <link
-          href="https://corona-ampel.app/app-icon.png"
+          href="https://corona-ampel.app/playstore-icon.png"
           rel="icon"
           type="image/png"
         ></link>
@@ -64,7 +64,7 @@ export default function Datenschutz() {
 
       <main className={styles.main}>
         <div className={styles.logo}>
-          <Image width="120" height="120" src="/app-icon.png" alt="Logo" />
+          <Image width="120" height="120" src="/playstore-icon.png" alt="Logo" />
         </div>
         <h1 className={styles.title}>Datenschutz - Corona-Ampel Website & Inzidenz-Ampel App</h1>
         <p>

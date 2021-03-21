@@ -21,18 +21,18 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://corona-ampel.app/app-icon.png"
+          content="https://corona-ampel.app/playstore-icon.png"
         />
         <meta
           property="og:image:secure_url"
-          content="https://corona-ampel.app/app-icon.png"
+          content="https://corona-ampel.app/playstore-icon.png"
         />
         <meta property="og:image:width" content="310" />
         <meta property="og:image:height" content="310" />
 
         <meta
           name="twitter:image"
-          content="https://corona-ampel.app/app-icon.png"
+          content="https://corona-ampel.app/playstore-icon.png"
         />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -40,9 +40,9 @@ export default function Home() {
           Corona-Ampel App - Aktuelle Zahlen, Inzidenz, Impf-Fortschritt ...
         </title>
         <link rel="icon" href="https://corona-ampel.app/favicon.ico" />
-        <link rel="icon" href="https://corona-ampel.app/app-icon.png" />
+        <link rel="icon" href="https://corona-ampel.app/playstore-icon.png" />
         <link
-          href="https://corona-ampel.app/app-icon.png"
+          href="https://corona-ampel.app/playstore-icon.png"
           rel="icon"
           type="image/png"
         ></link>
@@ -63,10 +63,43 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.logo}>
-          <Image  width="120" height="120" src="/app-icon.png" alt="Logo" />
+          <Image
+            width="120"
+            height="120"
+            src="/playstore-icon.png"
+            alt="Logo"
+          />
         </div>
-        <h1 className={styles.title}>Corona-Ampel für Android und iOS</h1>
-        <h2>Coming soon ...</h2>
+        <h1 className={styles.title}>Inzidenz-Ampel für Android</h1>
+        <a
+          className={styles.playstorelogo}
+          href="https://play.google.com/store/apps/details?id=com.ingomc.inzidenzampel&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+        >
+          <img
+            width="50%"
+            alt="Jetzt bei Google Play"
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/de_badge_web_generic.png"
+          />
+        </a>
+        <div class="hinweis">
+          <p>
+            <small>
+              Die Playstore-Entwicklerrichtlinien verbieten es mir meine App als
+              Corona-Ampel zu veröffentlichen, deshalb gibt es jetzt die
+              Inzidenz-Ampel.
+            </small>
+          </p>
+          <p>
+            <small>
+              Google Play und das Google Play-Logo sind Marken von Google LLC.
+            </small>
+          </p>
+        </div>
+        <p>
+          <small>
+            <a href="/datenschutz">Datenschutz / Impressum</a>
+          </small>
+        </p>
       </main>
     </div>
   );
