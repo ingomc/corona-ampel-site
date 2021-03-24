@@ -72,6 +72,13 @@ export default function Home() {
         </div>
         <h1 className={styles.title}>Corona-Ampel</h1>
         <h4>bald für Android, iOS, MacOS, Windows, Linux ...</h4>
+        <ul>
+          <li>Ganz Deutschland</li>
+          <li>Alle Landkreise</li>
+          <li>Eigene Landkreise</li>
+          <li>Aktueller Impffortschritt</li>
+          <li>Impfprognose</li>
+        </ul>
        
       </main>
     </div>
