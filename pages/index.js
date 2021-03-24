@@ -70,36 +70,9 @@ export default function Home() {
             alt="Logo"
           />
         </div>
-        <h1 className={styles.title}>Inzidenz-Ampel für Android</h1>
-        <a
-          className={styles.playstorelogo}
-          href="https://play.google.com/store/apps/details?id=com.ingomc.inzidenzampel&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-        >
-          <img
-            width="50%"
-            alt="Jetzt bei Google Play"
-            src="https://play.google.com/intl/en_us/badges/static/images/badges/de_badge_web_generic.png"
-          />
-        </a>
-        <div class="hinweis">
-          <p>
-            <small>
-              Die Playstore-Entwicklerrichtlinien verbieten es mir meine App als
-              Corona-Ampel zu veröffentlichen, deshalb gibt es jetzt die
-              Inzidenz-Ampel.
-            </small>
-          </p>
-          <p>
-            <small>
-              Google Play und das Google Play-Logo sind Marken von Google LLC.
-            </small>
-          </p>
-        </div>
-        <p>
-          <small>
-            <a href="/datenschutz">Datenschutz / Impressum</a>
-          </small>
-        </p>
+        <h1 className={styles.title}>Corona-Ampel</h1>
+        <h4>bald für Android, iOS, MacOS, Windows, Linux ...</h4>
+       
       </main>
     </div>
   );
